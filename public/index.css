@@ -38,14 +38,19 @@ nav a:hover {
 
 
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #faf36b;
-    padding: 170px;
+    padding: 5%;
     background-image: url('heroComponentImage.webp');
     background-size: cover;
-    font-size: 80px;
+    background-position: center;
+    font-size: 8vw;
     font-weight: 900;
     text-align: center;
     text-shadow: 2px 2px 5px red;
+    min-height: 50vh;
 }
 
 h1 {
@@ -79,6 +84,9 @@ main .card {
 
 main .card img{
     border-radius: 4px;
+    width: 255px;
+    height: 165px;
+    object-fit: cover;
 }
 
 main .card a {

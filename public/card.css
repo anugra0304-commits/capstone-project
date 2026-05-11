@@ -46,7 +46,7 @@ nav a:hover {
     background-color: aquamarine;
 } */
 
-/* footer {
+footer {
     min-height: 50px;
     background-color: rgb(255, 153, 0);
     margin-top: 112px;
@@ -69,14 +69,18 @@ footer>a:hover {
     text-shadow: 0 0 5px #fd0000;
     transition: 0.3s;
 
-} */
+}
 
 .hero {
+    display: flex;
+    align-items: center;
     color: #faf36b;
-    padding: 344px;
-    
+    padding: 5%;
+    min-height: 50vh;
+    object-fit: cover;
     background-size: cover;
-    font-size: 80px;
+    background-position: center;
+    font-size: 8vw;
     font-weight: 900;
     text-align: center;
     text-shadow: 2px 2px 5px red;
@@ -117,6 +121,9 @@ footer>a:hover {
 
 .eximg {
     border-radius: 4px;
+    width: 255px;
+    height: 165px;
+    object-fit: cover;
     margin: 8px 8px;
 }
 
@@ -147,19 +154,20 @@ footer>a:hover {
 
 main{
     display: flex;
+    flex-wrap: wrap;
 }
 
 main article{
-    border: 2px solid black;
-    width: 70vw;
-    padding: 30px;
+    border-bottom: 2px solid rgb(255, 153, 0);
+    width: 100%;
+    padding: 20px;
     font-size: large;
 }
 
 main aside{
-    border: 2px solid black;
-    padding: 40px;
-    width: 30vw;
+    /* border: 2px solid black; */
+    padding: 20px;
+    width: 100%;
 }
 
 main aside li{
