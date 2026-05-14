@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="/index.css">
+    <title>Password Page</title>
+    <!-- This links to the CSS file we will create next -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
-
 <body>
-    <header>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/about">About us</a>
-        </nav>
-        <div class="hero">Welcome to Rajasthan</div>
-    </header>
 
-    <h1>Choose your destination and click on guide button</h1>
+    <div class="password-container">
+        <h2>Authentication Required</h2>
+        <p>Please enter your password to continue.</p>
+        
+        <form action="/submit" method="POST">
+            <div class="input-group">
+                <label for="user-password">Password</label>
+                <input type="password" id="user-password" name="password" placeholder="Enter password" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
 
-    <main id="cardDisplay">
-    </main>
-
-    <footer>
-        <a href="/contactUs">Contact us</a>
-    </footer>
-    
-    <a href="/password/0" class="plus"><img src="plus.svg" alt=""></a>
-    <script src="/index.js"></script>
 </body>
-
 </html>

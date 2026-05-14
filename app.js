@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 app.use(express.static('./public'))
 
 app.use(express.urlencoded({ extended: false }));
@@ -44,7 +44,7 @@ app.get('/contactUs', (req, res) => {
 
 
 app.get('/password/:id', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'view', 'password.html'))
+ res.sendFile(path.resolve(__dirname, 'view', 'password.html'))
 });
 
 
