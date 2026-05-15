@@ -7,9 +7,8 @@ body {
     justify-content: center;
     align-items: center;
     
-    /* Rajasthan Scenery Background with Dark Overlay for Readability */
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), 
-                url('https://images.unsplash.com/photo-1524230507669-5ff97982bb5e?q=80&w=2000&auto=format&fit=crop');
+   /* Rajasthan Scenery Background with Dark Overlay */
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=2000');
     
     background-size: cover;
     background-position: center;
@@ -22,16 +21,12 @@ body {
 
 /* 2. The Glassmorphism Login Card */
 .login-card {
-    background: rgba(255, 255, 255, 0.1); /* Transparent White */
-    backdrop-filter: blur(15px); /* The Glass Blur Effect */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border: 2px solid rgba(212, 175, 55, 0.6); /* Royal Gold Border */
+    border: 2px solid rgba(212, 175, 55, 0.6);
     padding: 40px;
     border-radius: 20px;
-    width: 350px;
-    text-align: center;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-    color: #ffffff;
 }
 
 /* 3. Typography & Branding */
