@@ -16,12 +16,21 @@
             <p class="subtitle">Secure Heritage Access</p>
             
             <form id="login-form">
-                <div class="input-group">
-                    <input type="password" id="pass" placeholder="Enter Royal Passcode" required>
-                    <span class="gold-line"></span>
-                </div>
-                <button type="submit" class="btn-royal">Unlock the Gates</button>
-            </form>
+    <div class="input-group">
+        <input type="email" id="user-email" placeholder="Email Address" required>
+        <span class="gold-line"></span>
+    </div>
+    <div class="input-group">
+        <input type="password" id="user-pass" placeholder="Password" required>
+        <span class="gold-line"></span>
+    </div>
+    
+    <button type="submit" class="btn-royal" id="main-btn">Sign In</button>
+    
+    <div class="auth-options">
+        <p id="toggle-text">Don't have an account? <a href="#" id="auth-toggle">Create Account</a></p>
+    </div>
+</form>
         </div>
     </div>
     <script src="script.js"></script>
