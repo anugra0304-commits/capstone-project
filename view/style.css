@@ -1,0 +1,11 @@
+body {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-palace-image.jpg');
+  background-size: cover;
+  font-family: 'Times New Roman', serif; /* Gives a royal feel */
+  color: #FFD700; /* Marigold Gold */
+}
+.login-card {
+  border: 5px double #FFD700; /* Traditional lattice-style double border */
+  backdrop-filter: blur(8px);
+  padding: 40px;
+}
