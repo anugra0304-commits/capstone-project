@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-   <link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rajasthan Tourism Portal</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    <div class="royal-overlay"></div>
-    <div class="mandala-decoration"></div> <div class="main-container">
-        <div class="login-card">
-            <div class="emblem">𓃗</div> <h1 id="portal-title">Rajasthan Tourism</h1>
-            <p class="subtitle">Secure Heritage Access</p>
-            
-           <form id="login-form">
-    <div class="input-group">
-        <input type="email" id="user-email" placeholder="Email Address" required>
-    </div>
-    <div class="input-group">
-        <input type="password" id="user-pass" placeholder="Password" required>
-    </div>
-    <button type="submit" class="btn-royal" id="main-btn">Sign In</button>
-</form>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
 
+  <div class="overlay"></div>
+
+  <div class="login-box">
+
+    <div class="logo">
+      <i class="fa-solid fa-horse"></i>
+    </div>
+
+    <h1>RAJASTHAN<br>TOURISM PORTAL</h1>
+
+    <p class="tagline">Discover Royal Heritage</p>
+
+    <!-- Email -->
+    <div class="input-box">
+      <i class="fa-solid fa-envelope"></i>
+      <input type="email" placeholder="Enter Email ID">
+    </div>
+
+    <!-- Password -->
+    <div class="input-box">
+      <i class="fa-solid fa-lock"></i>
+      <input type="password" id="password" placeholder="Enter Password">
+
+      <span class="toggle-password" onclick="togglePassword()">
+        <i class="fa-solid fa-eye"></i>
+      </span>
+    </div>
+
+    <button class="signin-btn">SIGN IN</button>
+
+    <div class="divider">
+      <span></span>
+      <p>OR</p>
+      <span></span>
+    </div>
+
+    <button class="create-btn">
+      CREATE ACCOUNT
+    </button>
+
+    <a href="#" class="forgot">Forgot Password?</a>
+
+  </div>
+
+<script src="script.js"></script>
+
+</body>
 </html>
