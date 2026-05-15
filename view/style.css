@@ -1,11 +1,27 @@
 body {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('your-palace-image.jpg');
-  background-size: cover;
-  font-family: 'Times New Roman', serif; /* Gives a royal feel */
-  color: #FFD700; /* Marigold Gold */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* This link fetches a high-quality Rajasthan Palace image */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), 
+                url('https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&q=80&w=1920');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
 }
+
 .login-card {
-  border: 5px double #FFD700; /* Traditional lattice-style double border */
-  backdrop-filter: blur(8px);
-  padding: 40px;
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(15px);
+    border: 2px solid #D4AF37; /* Royal Gold Border */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #D4AF37;
 }
