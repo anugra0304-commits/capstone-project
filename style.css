@@ -1,0 +1,102 @@
+/* Reset basic margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff; /* Clean white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.password-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    /* Subtle shadow for depth, with a top orange accent border */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #FF8C00; 
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.password-container h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.password-container p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Highlight border in orange when user clicks to type */
+.input-group input:focus {
+    border-color: #FF8C00;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF8C00; /* Bold orange button */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #e67e22; /* Slightly darker orange on hover */
+}
+/* Forgot Password Link Styles */
+.forgot-password {
+    text-align: right;
+    margin-top: -10px; 
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #FF8C00;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #e67e22; 
+    text-decoration: underline;
+}
